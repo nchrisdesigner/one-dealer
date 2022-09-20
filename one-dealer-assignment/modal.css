@@ -1,0 +1,202 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Utility Class */
+/* .hide{
+    display: none;
+} */
+
+.show{
+    display: block!important;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.509);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 10;
+
+    display: none;
+}
+
+.modal::-webkit-scrollbar {
+    width: 0.8rem;
+}
+  
+.modal::-webkit-scrollbar-thumb {
+    background-color: #7fdcf8;
+    border-radius: 20px;
+}
+
+.modal{
+    height: 80vh;
+    width: 60%;
+    overflow-y: scroll;
+    margin: 5rem auto;
+    background-color: #fff;
+    position: fixed;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: none;
+
+    scrollbar-color: #7fdcf8 transparent;
+    scrollbar-width: thin;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal__title{
+    position: relative;
+    background-color: #ededed;
+    padding: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 1.4rem;
+
+    z-index: 5;
+}
+
+.modal__title h3{
+    font-weight: 400;
+    color: rgb(116, 116, 116);
+}
+
+
+.modal__vehicle--container{
+    position: relative;
+    background: #fff;
+    z-index: 5;
+}
+
+.modal__vehicle,
+.modal__vehicle--features__feature,
+.modal__vehicle--features__buttons{
+    display: grid;
+    grid-template-columns: 20fr 40fr 40fr;
+    gap: .25rem;
+}
+
+.modal__vehicle--features__feature{
+    margin-bottom: .25rem;
+}
+.modal__vehicle{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-bottom: .25rem solid #fff;
+}
+
+.modal__vehicle div:first-child{
+    width: 100%;
+    height: 100%;
+}
+
+.modal__vehicle-1{
+    grid-column: 2/3;
+}
+.modal__vehicle-2{
+    grid-column: 3/4;
+}
+
+.vehicle div{
+    background-color: #f4f6f9;
+    text-align: center;
+    padding: .75rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .25rem;
+}
+.vehicle div h3{
+    font-size: 1.6rem;
+    color: #6c9ac7;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.vehicle div h4{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.modal__vehicle--features__feature h4{
+    background-color: #f4f6f9;
+    color: #58595b;
+    font-size: 1.6rem;
+    justify-self:stretch;
+    text-align: right;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 1rem;
+}
+
+.modal__vehicle--features__feature p{
+    justify-self:stretch;
+    background-color: #dce3ec;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 1.25rem;
+    font-size: 1.6rem;
+}
+
+.modal__vehicle--features__buttons a{
+    background-color: #407cb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.modal__vehicle--features__buttons a:first-child{   
+    grid-column: 2/3;
+}
+.modal__vehicle--features__buttons a:last-child{   
+    grid-column: 3/4;
+}
+
+/* Modal Footer */
+.modal__footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.075);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    background: #fff;
+}
+
+.modal__footer button{
+    border: 1px solid rgba(146, 146, 146, 0.667);
+    background: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}

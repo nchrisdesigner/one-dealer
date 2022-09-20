@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Dealer Assignment</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/od_logo.png" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/15fa171776.js"
+crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="test.css">
+
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <!-- Navigation -->
+        <nav>
+
+            <!-- Nav Container 1 / Menu-->
+            <div class="header__nav--menu">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+                <a href="index.html" class="logo">
+                    <img loading="lazy" src="img/OD_logo.png" alt="Logo One Dealer">
+                </a>
+            </div>
+
+            <!-- Nav Container 2 / Search Bar -->
+            <div class="header__nav--search">
+                <form class="header__nav--search__form">
+                    <fieldset>
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                        <input type="search">
+                        <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <!-- Nav Container 3 / Login -->
+            <div class="header__nav--login">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-circle"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+        <aside class="menu">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-calendar-days"></i>
+            <i class="fa-solid fa-id-card"></i>
+            <i class="fa-solid fa-users"></i>
+            <i class="fa-solid fa-right-left"></i>
+            <i class="fa-solid fa-person"></i>
+            <i class="fa-regular fa-square"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-car"></i>
+            <i class="fa-solid fa-chart-pie"></i>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <i class="fa-solid fa-clipboard"></i>
+            <i class="fa-solid fa-check-to-slot"></i>
+        </aside>
+
+        <section class="main-content">
+
+          <!-- Container 1 / Car Model + CTA -->
+          <div class="main-content__car-model">
+              <div class="main-content__car-model--name">
+                  <i class="fa-solid fa-car"></i>
+                  <div >
+                      <h3>MERCEDES-BENZ GLC 350 E 4MATIC</h3>
+                      <h4>JTDBU4EE5BJ102044</h4>
+                  </div>
+              </div>
+              <div class="main-content__cta">
+                  <a class="main-content__cta--configuration" href="#">Change Configuration</a>
+                  <a class="main-content__cta--selection btn" href="#">Select</a>
+              </div>
+
+
+          </div>
+
+          <!-- Container 2 / Car Info -->
+          <div class="main-content__car-info">
+            <figure>
+              <img loading="lazy" src="./img/car.jpg" alt="MERCEDES-BENZ GLC 350 E 4MATIC Image ">
+            </figure>
+
+            <div class="grid main-content__car-info--specs">
+              <div>
+                <h4>Price</h4>
+                <h5>30.000€</h5>
+              </div>
+              <div>
+                <h4>Gear Type</h4>
+                <h5>Auto</h5>
+              </div>
+              <div>
+                <h4>Fuel Type</h4>
+                <h5>Gasoline</h5>
+              </div>
+              <div>
+                <h4>Other</h4>
+                <h5>Feature</h5>
+              </div>
+              <div>
+                <h4>Year</h4>
+                <h5>2021</h5>
+              </div>
+              <div>
+                <h4>Exterior Color</h4>
+                <h5>Black</h5>
+              </div>
+              <div>
+                <h4>Interior</h4>
+                <h5>Color</h5>
+              </div>
+              <div>
+                <h4>Other</h4>
+                <h5>Feature</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Container 3 / Table -->
+          <div class="array-container">
+              <table>
+                  <caption>Similar Stock Vehicles</caption>
+                  <thead>
+                    <tr>
+                      <th>Photo</th>
+                      <th>Make</th>
+                      <th>Model</th>
+                      <th>VIN</th>
+                      <th>Year</th>
+                      <th>Fuel Type</th>
+                      <th>Price</th>
+                      <th>Mileage</th>
+                      <th>Gear Type</th>
+                      <th>Interior Color</th>
+                      <th>Exterior Color</th>
+                      <th></th>
+                    <tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                        <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img loading="lazy" src="./img/car-table.jpg" alt="Car Image">
+                      </td>
+                      <td>BMW</td>
+                      <td>i3</td>
+                      <td>GR123456789012345</td>
+                      <td>2018</td>
+                      <td>Gasoline</td>
+                      <td>25.000€</td>
+                      <td>20.000km</td>
+                      <td>Auto</td>
+                      <td>Black</td>
+                      <td>White</td>
+                      <td>
+                          <div class="selection">
+                          <div class="selection__icon">
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+
+                          <div class="selection__modal">
+                              <a href="#" class="selection__modal--link active">Select</a>
+                              <a href="#" class="selection__modal--link">Details</a>
+                              <a href="#" class="selection__modal--link btn-click">Compare</a>
+                          </div>
+
+                        </div>
+                      </td>
+                    </tr>
+                    
+
+                    
+                  </tbody>
+                </table>
+          </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <i class="fa-solid fa-gear"></i>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="overlay"></div>
+    <div class="modal">
+        <!-- Modal Title -->
+        <div class="modal__title">
+            <h3>Vehicle Comparison</h3>
+        </div>
+        <!-- Modal Vehicle Container -->
+        <div class="modal__vehicle--container">
+            <!-- Vehicle Container -->
+        <div class="modal__vehicle">
+            <div></div>
+            <div class="vehicle modal__vehicle-1">
+                <figure>
+                    <img loading="lazy" src="./img/car-modal.jpg" alt="Vehicle 1 for comparison">
+                </figure>
+
+                <div>
+                    <h3>MERCEDES-BENZ GL 350 3 4MATIC</h3>
+                    <h4>30.000€</h3>
+                </div>
+            </div>
+            <div class="vehicle modal__vehicle-2">
+                <figure>
+                    <img loading="lazy" src="./img/car-modal.jpg" alt="Vehicle 2 for comparison">
+                </figure>
+
+                <div>
+                    <h3>Audi GS Line 1.2 Direct Injection Turbo</h3>
+                    <h4>25.000€</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Features Container -->
+        <div class="modal__vehicle--features">
+            <div class="modal__vehicle--features__feature">
+                <h4>Vehicle Status</h4>
+                <p>YES</p>
+                <p>YES</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>VAT Reclaimable</h4>
+                <p>YES</p>
+                <p>YES</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>First Registration</h4>
+                <p>25/03/2021</p>
+                <p>25/03/2021</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Mileage</h4>
+                <p>25.000KM</p>
+                <p>25.000KM</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Pre-Owner</h4>
+                <p>3</p>
+                <p>3</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Has Fixed Damages</h4>
+                <p>YES</p>
+                <p>YES</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Vehicle Status</h4>
+                <p>Used Vehicle</p>
+                <p>Used Vehicle</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Body Style</h4>
+                <p>Sedan</p>
+                <p>Sedan</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Power(KW)</h4>
+                <p>100</p>
+                <p>100</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Power(PS)</h4>
+                <p>132</p>
+                <p>132</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Vehicle Color</h4>
+                <p>Charcoal</p>
+                <p>Charcoal</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Interior Color</h4>
+                <p>Blue</p>
+                <p>Blue</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Interior Type</h4>
+                <p>Leather</p>
+                <p>Leather</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Engine Type</h4>
+                <p>Gasoline</p>
+                <p>Gasoline</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Transmission</h4>
+                <p>Automatic</p>
+                <p>Automatic</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Drivetrain</h4>
+                <p>4 Wheel Drive</p>
+                <p>4 Wheel Drive</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Head Up Display</h4>
+                <p>YES</p>
+                <p>NO</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Navigation-System</h4>
+                <p>YES</p>
+                <p>YES</p>
+            </div>
+            <div class="modal__vehicle--features__feature">
+                <h4>Other Feature</h4>
+                <p>YES</p>
+                <p>YES</p>
+            </div>
+            <div class="modal__vehicle--features__buttons">
+                <a href="#">SELECT</a>
+                <a href="#">SELECT</a>
+            </div>
+        </div>
+
+        </div>
+        <!-- Modal Footer -->
+        <footer class="modal__footer">
+            <button class="cancel-btn">Cancel</button>
+        </footer>
+
+    </div>
+
+    
+    <script defer src="app.js"></script>
+</body>
+</html>
